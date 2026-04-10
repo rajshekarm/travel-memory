@@ -1,0 +1,92 @@
+{
+  "project_name": "Personal Road Intelligence Map",
+  "region": "Chicago - West Loop",
+  "version": "2026.04.10-draft.3",
+  "published_version": "2026.04.01",
+  "updated_at": "2026-04-10T15:00:00Z",
+  "features": [
+    {
+      "id": "feat-1",
+      "title": "Apartment west curb pickup",
+      "type": "pickup",
+      "status": "published",
+      "priority": "high",
+      "x": 23.5,
+      "y": 58.0,
+      "area": "West Loop",
+      "notes": "Use the side street curb after 6 PM. Main frontage blocks the bus lane and causes missed pickups.",
+      "last_updated": "2026-04-08T18:12:00Z",
+      "assignee": "You"
+    },
+    {
+      "id": "feat-2",
+      "title": "Office tower north dropoff",
+      "type": "dropoff",
+      "status": "approved",
+      "priority": "medium",
+      "x": 61.2,
+      "y": 33.4,
+      "area": "Fulton Market",
+      "notes": "Safer passenger exit than the front entrance during morning traffic. Clear curb cut and enough staging room.",
+      "last_updated": "2026-04-09T13:41:00Z",
+      "assignee": "You"
+    },
+    {
+      "id": "feat-3",
+      "title": "Viaduct construction closure",
+      "type": "closure",
+      "status": "review",
+      "priority": "high",
+      "x": 74.0,
+      "y": 61.5,
+      "area": "Canal Corridor",
+      "notes": "Temporary closure through the viaduct from 7 AM to 5 PM. Should reroute pickups to the river side frontage road.",
+      "last_updated": "2026-04-10T07:30:00Z",
+      "assignee": "You"
+    },
+    {
+      "id": "feat-4",
+      "title": "Faded lane markings at grocery turn",
+      "type": "hazard",
+      "status": "draft",
+      "priority": "medium",
+      "x": 42.8,
+      "y": 72.3,
+      "area": "Greektown",
+      "notes": "Left turn pocket is hard to read at night and after rain. Mark for caution and possible future camera review.",
+      "last_updated": "2026-04-10T08:55:00Z",
+      "assignee": "You"
+    },
+    {
+      "id": "feat-5",
+      "title": "15-minute curb parking by train stop",
+      "type": "parking",
+      "status": "published",
+      "priority": "low",
+      "x": 49.2,
+      "y": 20.4,
+      "area": "Clinton Station",
+      "notes": "Useful staging space for short pickups. Usually open outside of baseball game traffic.",
+      "last_updated": "2026-04-07T16:22:00Z",
+      "assignee": "You"
+    }
+  ],
+  "activity": [
+    {
+      "timestamp": "2026-04-10T08:55:00Z",
+      "message": "Faded lane markings at grocery turn added as a draft hazard note."
+    },
+    {
+      "timestamp": "2026-04-10T07:30:00Z",
+      "message": "Viaduct construction closure moved into review after roadwork was spotted on the morning commute."
+    },
+    {
+      "timestamp": "2026-04-09T13:41:00Z",
+      "message": "Office tower north dropoff approved for the next publish."
+    },
+    {
+      "timestamp": "2026-04-08T18:12:00Z",
+      "message": "Apartment west curb pickup published to the personal fleet map."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/travel_buddy.db
+frontend/node_modules/
